@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const About = () => {
   return (
     <section
@@ -11,7 +13,11 @@ const About = () => {
             <div className="about-me">
               <div className="img">
                 <div className="img-in">
-                  <img src="static/img/statue-photo.jpg" title="" alt=""></img>
+                  <Image
+                    src="static/img/statue-photo.jpg"
+                    title=""
+                    alt=""
+                  ></Image>
                 </div>
               </div>
             </div>
@@ -174,7 +180,7 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img
+                  <Image
                     src="static/img/ua-square-logo.png"
                     title="University of Alabama Logo"
                     alt="University of Alabama Logo"
@@ -206,7 +212,7 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img
+                  <Image
                     src="static/img/ua-square-logo.png"
                     title="University of Alabama Logo"
                     alt="University of Alabama Logo"
@@ -237,10 +243,10 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img
+                  <Image
                     src="static/img/mis-ambassadors-logo.jpg"
-                    title=""
-                    alt=""
+                    title="MIS Ambassadors Logo"
+                    alt="MIS Ambassadors Logo"
                   />
                 </div>
               </div>
@@ -267,7 +273,7 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img
+                  <Image
                     src="static/img/bcbsal-logo.png"
                     title="Blue Cross and Blue Shield of Alabama Logo"
                     alt="Blue Cross and Blue Shield of Alabama Logo"

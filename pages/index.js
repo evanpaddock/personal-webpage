@@ -1,12 +1,10 @@
-import dynamic from "next/dynamic";
 import About from "../src/components/About";
 import ParticlesBackground from "../src/components/ParticlesBackground";
 import Services from "../src/components/Services";
 import Layout from "../src/layout/Layout";
 import TypingAnimation from "../src/components/TypingAnimation";
-const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
-  ssr: false,
-});
+import Image from "next/image";
+
 const IndexParticles = () => {
   return (
     <Layout>
@@ -44,7 +42,7 @@ const IndexParticles = () => {
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <img
+                  <Image
                     src="static/img/mirror-photo.JPG"
                     title="Personal Photo of Evan"
                     alt="Personal Photo of Evan"
