@@ -1,12 +1,9 @@
-import dynamic from "next/dynamic";
 import About from "../src/components/About";
 import ParticlesBackground from "../src/components/ParticlesBackground";
 import Services from "../src/components/Services";
 import Layout from "../src/layout/Layout";
 import TypingAnimation from "../src/components/TypingAnimation";
-const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
-  ssr: false,
-});
+
 const IndexParticles = () => {
   return (
     <Layout>
@@ -34,7 +31,7 @@ const IndexParticles = () => {
                   <div className="btn-bar">
                     <a
                       className="px-btn px-btn-theme"
-                      href="./Paddock_Evan_resume.pdf"
+                      href="./static/Paddock_Evan_resume.pdf"
                       download="PaddockEvanResume"
                     >
                       Download Resume

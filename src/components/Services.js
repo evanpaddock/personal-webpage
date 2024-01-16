@@ -1,5 +1,3 @@
-import dynamic from "next/dynamic";
-
 const Services = () => {
   return (
     <section
