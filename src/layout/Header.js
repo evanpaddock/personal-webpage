@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useState } from "react";
 const Header = () => {
@@ -33,7 +32,7 @@ const Header = () => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <Image
+                <img
                   src="static/img/prof-headshot.jpg"
                   title="Evan Paddock Professional Headshot"
                   alt="Evan Paddock Professional Headshot"

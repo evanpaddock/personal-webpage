@@ -31,8 +31,8 @@ const IndexParticles = () => {
                   <div className="btn-bar">
                     <a
                       className="px-btn px-btn-theme"
-                      href="./static/Paddock_Evan_resume.pdf"
-                      download="PaddockEvanResume"
+                      href="./Paddock_Evan_resume.pdf"
+                      download="./Paddock_Evan_resume.pdf"
                     >
                       Download Resume
                     </a>
@@ -41,7 +41,7 @@ const IndexParticles = () => {
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <Image
+                  <img
                     src="static/img/mirror-photo.JPG"
                     title="Personal Photo of Evan"
                     alt="Personal Photo of Evan"
