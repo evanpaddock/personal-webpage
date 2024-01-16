@@ -1,13 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
-import { Fragment, useEffect, useState } from "react";
-import { activeSection } from "../utilits";
-const Header = ({ blog }) => {
+import { Fragment, useState } from "react";
+const Header = () => {
   const [sideBarToggle, setSideBarToggle] = useState(false);
-  useEffect(() => {
-    if (!blog) {
-      activeSection();
-    }
-  }, []);
   return (
     <Fragment>
       <div className="mob-header">
@@ -38,7 +33,11 @@ const Header = ({ blog }) => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/prof-headshot.jpg" title="" alt="" />
+                <Image
+                  src="static/img/prof-headshot.jpg"
+                  title="Evan Paddock Professional Headshot"
+                  alt="Evan Paddock Professional Headshot"
+                />
               </div>
               <h5>Evan Paddock</h5>
             </div>
