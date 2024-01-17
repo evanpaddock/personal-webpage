@@ -62,7 +62,7 @@ const About = () => {
                   </a>
                   <a
                     className="px-btn px-btn-theme"
-                    href="Paddock_Evan_resume.pdf"
+                    href="./Paddock_Evan_resume.pdf"
                   >
                     <span>View My Resume</span>
                   </a>
