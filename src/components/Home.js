@@ -27,8 +27,8 @@ function Home() {
                 <div className="btn-bar">
                   <a
                     className="px-btn px-btn-theme"
-                    href="./Paddock_Evan_resume.pdf"
-                    download="./Paddock_Evan_resume.pdf"
+                    href="Paddock_Evan_resume.pdf"
+                    download="Paddock_Evan_resume.pdf"
                   >
                     Download Resume
                   </a>

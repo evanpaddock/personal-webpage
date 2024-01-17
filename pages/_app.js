@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }) {
         ></meta>
         <meta
           property="og:image"
-          content="/favicon"
+          content="/favicon.ico"
         ></meta>
         {/* <!-- plugin CSS --> */}
         <link
