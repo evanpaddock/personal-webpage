@@ -39,6 +39,7 @@ function Home() {
               <div className="hb-img">
                 <img
                   src="static/img/mirror-photo.JPG"
+                  className="rounded"
                   title="Personal Photo of Evan"
                   alt="Personal Photo of Evan"
                 />

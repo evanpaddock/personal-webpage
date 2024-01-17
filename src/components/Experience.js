@@ -16,6 +16,7 @@ function Experience() {
                 <div className="rb-left">
                   <img
                     src="static/img/ua-square-logo.png"
+                    className="rounded"
                     title="University of Alabama Logo"
                     alt="University of Alabama Logo"
                   />
@@ -48,6 +49,7 @@ function Experience() {
                 <div className="rb-left">
                   <img
                     src="static/img/ua-square-logo.png"
+                    className="rounded"
                     title="University of Alabama Logo"
                     alt="University of Alabama Logo"
                   />
@@ -79,6 +81,7 @@ function Experience() {
                 <div className="rb-left">
                   <img
                     src="static/img/mis-ambassadors-logo.jpg"
+                    className="rounded"
                     title="MIS Ambassadors Logo"
                     alt="MIS Ambassadors Logo"
                   />
@@ -109,6 +112,7 @@ function Experience() {
                 <div className="rb-left">
                   <img
                     src="static/img/bcbsal-logo.png"
+                    className="rounded"
                     title="Blue Cross and Blue Shield of Alabama Logo"
                     alt="Blue Cross and Blue Shield of Alabama Logo"
                   />

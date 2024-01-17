@@ -11,7 +11,7 @@ const About = () => {
             <div className="about-me">
               <div className="img">
                 <div className="img-in">
-                  <img src="static/img/statue-photo.jpg" title="" alt=""></img>
+                  <img src="static/img/statue-photo.jpg" className="rounded" title="Evan Paddock at the Nick Saban Statue" alt="Evan Paddock at the Nick Saban Statue"></img>
                 </div>
               </div>
             </div>

@@ -24,7 +24,8 @@ function MyApp({ Component, pageProps }) {
           property="og:description"
           content="Evan Paddock's professional portfolio. Learn about my Background, Experience, and Skills to see if I am the right fit for your job!"
         ></meta>
-        <meta property="og:image" content="favicon.ico"></meta>
+        <meta property="og:image" content="site-preview.png"></meta>
+        <meta property="og:type" content="website"></meta>
         {/* <!-- plugin CSS --> */}
         <link
           rel="stylesheet"
