@@ -1,7 +1,11 @@
 import Link from "next/link";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
+import { activeSection } from "../utilits";
 const Header = () => {
   const [sideBarToggle, setSideBarToggle] = useState(false);
+  useEffect(() => {
+    activeSection();
+  }, []);
   return (
     <Fragment>
       <div className="mob-header">
@@ -41,7 +45,7 @@ const Header = () => {
               <h5>Evan Paddock</h5>
             </div>
           </div>
-          {<Menu />}
+          <Menu />
         </div>
         <div className="nav justify-content-center social-icons">
           <a href="https://www.linkedin.com/in/evan-paddock/">
@@ -72,18 +76,24 @@ const Menu = () => {
           <span>About Me</span>
         </a>
       </li>
-      <li data-menuanchor="services">
-        <a className="nav-link" href="#services">
+      <li data-menuanchor="education">
+        <a className="nav-link" href="#education">
           <i className="ti-panel" />
+          <span>Education</span>
+        </a>
+      </li>
+      <li data-menuanchor="experience">
+        <a className="nav-link" href="#experience">
+          <i className="ti-bookmark-alt" />
+          <span>Experience</span>
+        </a>
+      </li>
+      <li data-menuanchor="expertise">
+        <a className="nav-link" href="#expertise">
+          <i className="ti-layout-media-overlay-alt-2" />
           <span>Expertise</span>
         </a>
       </li>
-      {/* <li data-menuanchor="work">
-        <a className="nav-link" href="#work">
-          <i className="ti-bookmark-alt" />
-          <span>Portfolio</span>
-        </a>
-      </li> */}
     </ul>
   );
 };
