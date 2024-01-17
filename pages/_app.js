@@ -16,8 +16,18 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Evan Paddock - Portfolio</title>
         {/* <!-- Favicon --> */}
-
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+        {/* <!-- Open Graph Meta Tags --> */}
+        <meta property="og:title" content="Evan Paddock's Portfolio"></meta>
+        <meta
+          property="og:description"
+          content="Evan Paddock's professional portfolio. Learn about my Background, Experience, and Skills to see if I am the right fit for your job!"
+        ></meta>
+        <meta
+          property="og:image"
+          content="/favicon"
+        ></meta>
         {/* <!-- plugin CSS --> */}
         <link
           rel="stylesheet"
