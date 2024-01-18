@@ -29,14 +29,14 @@ const About = () => {
               <div className="about-text">
                 <h3>
                   A Student Leader with a passion for learning and applying
-                  current technologies.{" "}
+                  current technologies.
                 </h3>
                 <p>
-                  I&apos;m a Student at the University of Alabama studying
-                  Management Information Systems. I&apos;m from Springville,
-                  Alabama. I am pursuing a Bachelor&apos;s and Master&apos;s
-                  with a concentation in Data Analytics. Everyday I challenge
-                  myself to learn something new.
+                  I'm a Student at the University of Alabama studying Management
+                  Information Systems. I'm from Springville, Alabama. I am
+                  pursuing a Bachelor's and Master's with a concentration in
+                  Data Analytics. Every day I challenge myself to learn
+                  something new.
                 </p>
                 <div className="row">
                   <div className="col-auto">
@@ -58,15 +58,15 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-                <div className="btn-bar">
+                <div className="btn-bar text-center">
                   <a
-                    className="px-btn px-btn-theme"
+                    className="px-btn px-btn-theme d-inline-block mx-2 mb-2 mb-md-0 float-left"
                     href="mailto:edpaddock@crimson.ua.edu"
                   >
                     <span>Contact Me</span>
                   </a>
                   <a
-                    className="px-btn px-btn-theme"
+                    className="px-btn px-btn-theme d-inline-block mx-2 mb-2 mb-md-0 float-left"
                     href="Paddock_Evan_resume.pdf"
                   >
                     <span>View Resume</span>
@@ -80,4 +80,5 @@ const About = () => {
     </section>
   );
 };
+
 export default About;

@@ -29,10 +29,10 @@ function Education() {
             <div className="skills-box">
               <h3>My skills</h3>
               <p>
-                I&apos;m am pursuing a Bachelor&apos;s and Master&apos;s in
-                Management Information Systems with a concentation in Data
-                Analytics. Through my expereiences I have a strong understanding
-                of:
+                I am currently pursuing both a Bachelor&apos;s and Master&apos;s
+                degree in Management Information Systems with a concentration in
+                Data Analytics. My academic journey has equipped me with a
+                robust understanding of:
               </p>
               <div className="skill-lt">
                 <h6>C#</h6>
