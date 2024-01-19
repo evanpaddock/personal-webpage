@@ -38,8 +38,8 @@ function Home() {
             <div className="col-lg-6">
               <div className="hb-img">
                 <img
-                  src="static/img/mirror-photo.JPG"
-                  className="rounded"
+                  src="static/img/mirror-photo-square.JPG"
+                  className="rounded-circle"
                   title="Personal Photo of Evan"
                   alt="Personal Photo of Evan"
                 />

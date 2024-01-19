@@ -5,10 +5,19 @@ import "../styles/glitch.css";
 import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
   const [load, setLoad] = useState(true);
+
   useEffect(() => {
-    setTimeout(() => {
+    const handleLoad = () => {
       setLoad(false);
-    }, 1000);
+    };
+
+    // Attach the event listener to window.onload
+    window.addEventListener("load", handleLoad);
+
+    // Remove the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("load", handleLoad);
+    };
   }, []);
 
   return (

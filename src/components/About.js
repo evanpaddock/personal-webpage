@@ -12,7 +12,7 @@ const About = () => {
               <div className="img">
                 <div className="img-in">
                   <img
-                    src="static/img/statue-photo.jpg"
+                    src="static/img/statue-photo-square.jpg"
                     className="rounded"
                     title="Evan Paddock at the Nick Saban Statue"
                     alt="Evan Paddock at the Nick Saban Statue"
