@@ -32,9 +32,9 @@ const About = () => {
                   current technologies.
                 </h3>
                 <p>
-                  I'm a Student at the University of Alabama studying Management
-                  Information Systems. I'm from Springville, Alabama. I am
-                  pursuing a Bachelor's and Master's with a concentration in
+                  I&apos;m a Student at the University of Alabama studying Management
+                  Information Systems. I&apos;m from Springville, Alabama. I am
+                  pursuing a Bachelor&apos;s and Master&apos;s with a concentration in
                   Data Analytics. Every day I challenge myself to learn
                   something new.
                 </p>
