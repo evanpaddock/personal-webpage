@@ -10,11 +10,8 @@ function MyApp({ Component, pageProps }) {
     const handleLoad = () => {
       setLoad(false);
     };
-
-    // Attach the event listener to window.onload
     window.addEventListener("load", handleLoad);
 
-    // Remove the event listener when the component unmounts
     return () => {
       window.removeEventListener("load", handleLoad);
     };
