@@ -37,7 +37,7 @@ const Header = () => {
             <div className="hl-logo">
               <div className="img">
                 <img
-                  src="static/img/prof-headshot.jpg"
+                  src="static/img/prof-headshot.png"
                   title="Evan Paddock Professional Headshot"
                   alt="Evan Paddock Professional Headshot"
                 />
